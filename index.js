@@ -5,3 +5,14 @@ toggleBtn.addEventListener("click", handleBookMarkClick);
 function handleBookMarkClick() {
   toggleBtn.classList.toggle("bookmark--active");
 }
+
+const answerBtnHidden = document.querySelector('[data-js="answer-btn"]');
+answerBtnHidden.addEventListener("click", answerBtnClick);
+
+function answerBtnClick() {
+  // answerBtnHidden.classList.card("card__answer--active");
+
+  if (answerBtnClick === true) {
+  } else {
+  }
+}
